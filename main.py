@@ -61,6 +61,5 @@ if run:
             # Display the frame in Streamlit
             stframe.image(img_rgb, channels="RGB")
         cap.release()
-        break
     else:
         st.error("No camera found. Please check your camera connection.")
