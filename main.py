@@ -19,7 +19,6 @@ run = st.button("Start Camera")
 
 if run:
     # Try different camera indices
-    for i in range(3):
         cap = cv2.VideoCapture(i)
         if cap.isOpened():
             stframe = st.empty()
